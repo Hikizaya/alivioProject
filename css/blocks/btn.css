@@ -1,0 +1,41 @@
+.btn, a.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #01996D;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 51px;
+    line-height: 51px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 4px;
+    transition: opacity 0.2s ease;
+    text-align: center;
+}
+
+.btn:hover, a.btn:hover {
+    opacity: 0.8;
+    color: #fff;
+}
+
+.home-btn {
+    display: flex;
+}
+
+.btn-big, a.btn-big {
+    min-height: 65px;
+}
+
+@media (max-width: 991px) {
+    .btn-big, a.btn-big {
+        min-height: 55px;
+    }
+
+    .btn, a.btn {
+        padding-left: 30px;
+        padding-right: 30px;
+        min-height: 41px;
+}
+}
